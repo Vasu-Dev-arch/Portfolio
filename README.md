@@ -1,4 +1,4 @@
-# 🌐 Cap's Portfolio
+# 🌐 My Portfolio
 
 Hey there 👋  
 Welcome to my personal **Portfolio Website** — a space where I showcase my projects, skills, and passion for building practical and efficient software solutions.
@@ -28,26 +28,17 @@ Currently focusing on mastering **frontend development** (HTML, CSS, JavaScript,
 | 🧮 **Duty Chart Generator** | Automates faculty exam duty assignments based on constraints and preferences | Python, Tkinter, Pandas |
 | 🌐 **Portfolio Website** | The very site you’re seeing — built to highlight my work and journey | HTML, CSS, JS |
 
----
 
-## 🖼️ Preview
-
-![Portfolio Screenshot](assets/portfolio-preview.png)
-
-
----
 
 ## 📄 Resume
 
-You can download my latest resume directly from the portfolio or via this link:  
-[**Download Resume**](assets/resume.pdf)
-
+You can download my latest resume directly from the portfolio 
 
 ---
 
 ## 🔗 Live Website
 
-🚀 [Visit My Portfolio](https://your-portfolio-link.vercel.app)  
+🚀 [Visit My Portfolio]([https://your-portfolio-link.vercel.app])  
 
 ---
 
