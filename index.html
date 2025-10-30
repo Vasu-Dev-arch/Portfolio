@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="VASUDEVAN | Computer Science student portfolio" />
+    <title>VASUDEVAN | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="home">
+        <nav class="nav container">
+            <a href="#home" class="brand" aria-label="Go to home">VASU</a>
+
+            <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+                <span class="nav__bar"></span>
+                <span class="nav__bar"></span>
+                <span class="nav__bar"></span>
+            </button>
+
+            <ul class="nav__menu" id="navMenu">
+                <li><a class="nav__link" href="#home">Home</a></li>
+                <li><a class="nav__link" href="#about">About</a></li>
+                <li><a class="nav__link" href="#skills">Skills</a></li>
+                <li><a class="nav__link" href="#projects">Projects</a></li>
+                <li><a class="nav__link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="section hero">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <p class="eyebrow">Computer Science Student</p>
+                    <h1 class="hero__title">Hi, I’m <span class="accent">VASU</span><span class="wave" aria-hidden="true">👋</span></h1>
+                    <p class="hero__subtitle">A Computer Science student passionate about building smart and practical projects.</p>
+                    <div class="hero__cta">
+                        <a class="btn btn--primary" href="assets/VASUDEVAN_Resume.pdf" download>Download Resume</a>
+                        <a class="btn btn--ghost" href="#projects">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero__visual" aria-hidden="true">
+                    <div class="orb orb--lg"></div>
+                    <div class="orb orb--sm"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section__title">About</h2>
+                <p class="section__lead">I’m a pre-final year Computer Science student focusing on building robust, user-friendly applications. I enjoy solving real-world problems and turning ideas into working software.</p>
+                <p class="section__lead">My core skills include <strong>Java</strong> and <strong>Python</strong> for problem solving, and <strong>React</strong> with modern <strong>web development</strong> practices for building responsive frontends. I’m currently improving my full‑stack skills and exploring clean architecture, performance, and accessibility.</p>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <p class="section__lead">Core technologies and areas I work with regularly.</p>
+
+                <div class="cards skills__grid">
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>Java</h3><p>OOP, Collections, problem solving</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>Python</h3><p>Scripting, data processing</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>React</h3><p>Hooks, state, SPA design</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>HTML</h3><p>Semantic, accessible markup</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>CSS</h3><p>Responsive layouts, animations</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>JavaScript</h3><p>ES6+, DOM APIs</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>Git/GitHub</h3><p>Version control, PR workflow</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>DSA</h3><p>Data structures, algorithms</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>Databases</h3><p>SQL & NoSQL basics</p></div></article>
+                    <article class="card skill-card"><div class="skill-card__inner"><h3>Web Dev</h3><p>REST, auth, deployment</p></div></article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+
+                <div class="cards">
+                    <!-- Duty Chart Generator -->
+                    <article class="card">
+                        <div class="card__body">
+                            <h3 class="card__title">Duty Chart Generator</h3>
+                            <p class="card__desc">Desktop tool to automate creating duty rosters with validation and export options.</p>
+                            <p class="card__tech">Python, Tkinter, Pandas</p>
+                        </div>
+                        <div class="card__actions">
+                            <a class="btn btn--ghost" href="https://github.com/your-username/duty-chart-generator" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </article>
+
+                    <!-- Library Management System -->
+                    <!-- <article class="card">
+                        <div class="card__body">
+                            <h3 class="card__title">Library Management System</h3>
+                            <p class="card__desc">Full‑stack CRUD app for managing books, members, and transactions with role-based access.</p>
+                            <p class="card__tech">React, Node/Express, MongoDB (or SQL)</p>
+                        </div>
+                        <div class="card__actions">
+                            <a class="btn btn--ghost" href="https://github.com/your-username/library-management-system" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </article> -->
+
+                    <!-- Portfolio Website -->
+                    <article class="card">
+                        <div class="card__body">
+                            <h3 class="card__title">Portfolio Website</h3>
+                            <p class="card__desc">Responsive personal site to showcase projects, skills, and contact information.</p>
+                            <p class="card__tech">HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="card__actions">
+                            <a class="btn btn--ghost" href="https://github.com/your-username/portfolio" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Contact</h2>
+
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <ul class="list">
+                            <li><a href="mailto:vasu@example.com">vasu@example.com</a></li>
+                            <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a></li>
+                        </ul>
+                    </div>
+
+                    <form class="form" id="contactForm">
+                        <div class="form__row">
+                            <label class="form__label" for="name">Name</label>
+                            <input class="form__input" id="name" name="name" type="text" placeholder="Your name" required />
+                        </div>
+                        <div class="form__row">
+                            <label class="form__label" for="email">Email</label>
+                            <input class="form__input" id="email" name="email" type="email" placeholder="you@example.com" required />
+                        </div>
+                        <div class="form__row">
+                            <label class="form__label" for="message">Message</label>
+                            <textarea class="form__textarea" id="message" name="message" rows="4" placeholder="How can I help?" required></textarea>
+                        </div>
+                        <button class="btn btn--primary" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <p>© <span id="year"></span> VASUDEVAN. All rights reserved.</p>
+            <div class="footer__links">
+                <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+                <a href="mailto:vasu@example.com" aria-label="Email">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
