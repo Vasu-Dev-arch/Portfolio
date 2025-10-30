@@ -7,7 +7,7 @@ Welcome to my personal **Portfolio Website** — a space where I showcase my pro
 
 ## 🚀 About Me
 
-I'm **Cap**, a 3rd-year Computer Science student passionate about learning, problem-solving, and full-stack development.  
+I'm **VASU**, a Pre-Final year Computer Science student passionate about learning, problem-solving, and full-stack development.  
 Currently focusing on mastering **frontend development** (HTML, CSS, JavaScript, React.js) and building impactful projects that solve real problems.
 
 ---
@@ -26,7 +26,7 @@ Currently focusing on mastering **frontend development** (HTML, CSS, JavaScript,
 | Project | Description | Tech Used |
 |----------|--------------|-----------|
 | 🧮 **Duty Chart Generator** | Automates faculty exam duty assignments based on constraints and preferences | Python, Tkinter, Pandas |
-| 🌐 **Portfolio Website** | The very site you’re seeing — built to highlight my work and journey | HTML, CSS, JS (Built in Cursor AI) |
+| 🌐 **Portfolio Website** | The very site you’re seeing — built to highlight my work and journey | HTML, CSS, JS |
 
 ---
 
@@ -34,7 +34,6 @@ Currently focusing on mastering **frontend development** (HTML, CSS, JavaScript,
 
 ![Portfolio Screenshot](assets/portfolio-preview.png)
 
-> *(You can replace the image above with an actual screenshot later.)*
 
 ---
 
@@ -43,14 +42,12 @@ Currently focusing on mastering **frontend development** (HTML, CSS, JavaScript,
 You can download my latest resume directly from the portfolio or via this link:  
 [**Download Resume**](assets/resume.pdf)
 
-*(Note: If hosted elsewhere like Google Drive, replace the link above.)*
 
 ---
 
 ## 🔗 Live Website
 
 🚀 [Visit My Portfolio](https://your-portfolio-link.vercel.app)  
-*(Replace with your actual deployment URL once live.)*
 
 ---
 
