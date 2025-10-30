@@ -38,7 +38,7 @@ You can download my latest resume directly from the portfolio
 
 ## 🔗 Live Website
 
-🚀 [Visit My Portfolio]([https://your-portfolio-link.vercel.app])  
+🚀 [Visit My Portfolio](https://vasu-dev-portfolio.netlify.app/)  
 
 ---
 
